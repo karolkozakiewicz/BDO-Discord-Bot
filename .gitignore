@@ -1,0 +1,11 @@
+.idea/
+functions/BOT.log
+Lib/
+Scripts/
+__pycache__/
+pyvenv.cfg
+notepad
+functions/database.py
+configs/config.json
+configs/key.txt
+venv/

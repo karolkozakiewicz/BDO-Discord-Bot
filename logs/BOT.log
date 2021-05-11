@@ -1,0 +1,55 @@
+INFO : 2021-05-11 06:12:26 : No module named 'psycopg2'
+INFO : 2021-05-11 06:12:39 : No module named 'psycopg2'
+INFO : 2021-05-11 06:12:56 : No module named 'psycopg2'
+INFO : 2021-05-11 06:13:08 : No module named 'psycopg2'
+INFO : 2021-05-11 06:13:17 : No module named 'psycopg2'
+INFO : 2021-05-11 06:13:17 : logging in using static token
+INFO : 2021-05-11 06:13:18 : Shard ID None has sent the IDENTIFY payload.
+INFO : 2021-05-11 06:13:27 : Shard ID None has connected to Gateway: ["gateway-prd-main-01fw",{"micros":8880883,"calls":["discord-sessions-prd-2-85",{"micros":8878663,"calls":["start_session",{"micros":8841969,"calls":["api-prd-main-100j",{"micros":3029241,"calls":["get_user",{"micros":413780},"add_authorized_ip",{"micros":138521},"get_guilds",{"micros":355290},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":15300,"calls":[]}]}]}] (Session ID: 4d2de0c12eb02f25d8e4eaf398fd53aa).
+INFO : 2021-05-11 06:13:41 : Cleaning up tasks.
+INFO : 2021-05-11 06:13:41 : Cleaning up after 1 tasks.
+INFO : 2021-05-11 06:13:41 : All tasks finished cancelling.
+INFO : 2021-05-11 06:13:41 : Closing the event loop.
+INFO : 2021-05-11 06:20:05 : No module named 'psycopg2'
+INFO : 2021-05-11 06:20:05 : logging in using static token
+INFO : 2021-05-11 06:20:05 : Shard ID None has sent the IDENTIFY payload.
+INFO : 2021-05-11 06:20:06 : Shard ID None has connected to Gateway: ["gateway-prd-main-0vp1",{"micros":202287,"calls":["discord-sessions-prd-2-169",{"micros":197264,"calls":["start_session",{"micros":173556,"calls":["api-prd-main-mtx7",{"micros":170512,"calls":["get_user",{"micros":23259},"add_authorized_ip",{"micros":15636},"get_guilds",{"micros":20864},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":9997,"calls":[]}]}]}] (Session ID: 3208e1c2242151d0f94c05dd3ece7f29).
+ERROR : 2021-05-11 06:20:19 : object of type 'ImportError' has no len()
+Traceback (most recent call last):
+  File "/root/Bots/ProgrammingWorld/cogs/bdo_bot.py", line 27, in _bossy
+    if len(respond) == 2:
+TypeError: object of type 'ImportError' has no len()
+ERROR : 2021-05-11 06:20:35 : object of type 'ImportError' has no len()
+Traceback (most recent call last):
+  File "/root/Bots/ProgrammingWorld/cogs/bdo_bot.py", line 27, in _bossy
+    if len(respond) == 2:
+TypeError: object of type 'ImportError' has no len()
+INFO : 2021-05-11 06:20:37 : Cleaning up tasks.
+INFO : 2021-05-11 06:20:37 : Cleaning up after 1 tasks.
+INFO : 2021-05-11 06:20:37 : All tasks finished cancelling.
+INFO : 2021-05-11 06:20:37 : Closing the event loop.
+INFO : 2021-05-11 06:21:29 : logging in using static token
+INFO : 2021-05-11 06:21:30 : Shard ID None has sent the IDENTIFY payload.
+INFO : 2021-05-11 06:21:30 : Shard ID None has connected to Gateway: ["gateway-prd-main-zwbs",{"micros":85588,"calls":["discord-sessions-prd-2-76",{"micros":82779,"calls":["start_session",{"micros":74063,"calls":["api-prd-main-kszf",{"micros":70896,"calls":["get_user",{"micros":15272},"add_authorized_ip",{"micros":8250},"get_guilds",{"micros":16412},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":8099,"calls":[]}]}]}] (Session ID: 2ff5b4e92f3e69bd756c603effbc42d8).
+ERROR : 2021-05-11 06:21:38 : object of type 'ImportError' has no len()
+Traceback (most recent call last):
+  File "/root/Bots/ProgrammingWorld/cogs/bdo_bot.py", line 27, in _bossy
+    if len(respond) == 2:
+TypeError: object of type 'ImportError' has no len()
+INFO : 2021-05-11 06:21:42 : Cleaning up tasks.
+INFO : 2021-05-11 06:21:42 : Cleaning up after 1 tasks.
+INFO : 2021-05-11 06:21:42 : All tasks finished cancelling.
+INFO : 2021-05-11 06:21:42 : Closing the event loop.
+INFO : 2021-05-11 06:25:38 : logging in using static token
+INFO : 2021-05-11 06:25:39 : Shard ID None has sent the IDENTIFY payload.
+INFO : 2021-05-11 06:25:39 : Shard ID None has connected to Gateway: ["gateway-prd-main-hswj",{"micros":81141,"calls":["discord-sessions-prd-2-98",{"micros":79370,"calls":["start_session",{"micros":34805,"calls":["api-prd-main-tfhr",{"micros":32337,"calls":["get_user",{"micros":2388},"add_authorized_ip",{"micros":3276},"get_guilds",{"micros":9775},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":28055,"calls":[]}]}]}] (Session ID: 4d23514a914f7e3119753112f5f76a67).
+INFO : 2021-05-11 06:25:46 : Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+ERROR : 2021-05-11 06:25:46 : object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/root/Bots/ProgrammingWorld/cogs/bdo_bot.py", line 27, in _bossy
+    if len(respond) == 2:
+TypeError: object of type 'NoneType' has no len()
+INFO : 2021-05-11 06:25:49 : Cleaning up tasks.
+INFO : 2021-05-11 06:25:49 : Cleaning up after 1 tasks.
+INFO : 2021-05-11 06:25:49 : All tasks finished cancelling.
+INFO : 2021-05-11 06:25:49 : Closing the event loop.
