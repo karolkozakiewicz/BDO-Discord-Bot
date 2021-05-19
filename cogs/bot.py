@@ -25,6 +25,17 @@ class Bot(commands.Cog):
         self.server_id = self.bot.guilds[0].id
         print(f'Logged on as {self.bot.user}')
 
+    @commands.command()
+    async def translate(self, ctx, *args):
+        try:
+            to_lang = args[0]
+            message = args[1:]
+            output = Translation.translatee(to_lang, message)
+            await ctx.send(f"```Message: {' '.join(message)}```"
+                           f"```{to_lang}: {output}```")
+        except Exception as e:
+            logging.info(e)
+
     @commands.command(pass_context=True)
     async def clear(self, ctx, amount=15):
         if amount > 100:
